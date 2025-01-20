@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock  %}
+{%block body %}
+    <div class="container my-3">
+        <form action="/update/{{TooDoo.sno}}" method="POST">
+            <h4>To Do Application</h4>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">set up a reminder</label>
+              <input type="text" class="form-control" value='{{TooDoo.title}}'id="exampleInputEmail1" name="title" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">describe your pending Work</label>
+              <input type="text" class="form-control" value='{{TooDoo.desc}}' id="exampleInputPassword1" name="desc">
+            </div>
+            <button type="submit" class="btn  btn-dark">Update</button>
+          </form>
+  {% endblock body %}
