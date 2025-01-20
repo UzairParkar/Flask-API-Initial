@@ -15,3 +15,5 @@ Note: This Repository includes all the different types of restful APIs that i ha
 5. __Flask-Marshmallow__: An API using the Marshmallow Extension. which allows me to serialise the data directly 
 
 6. __Flask-Excel-Reader__: This API allows me to process and send data from an excel and CSV file to the database. 
+
+7. __Flask-Excel-CSV-Crud__: This API allows us to perform crud operations using the excel oe csv files. changes made in the excel files and csv files are detected when the api is hit and the data is changed  
