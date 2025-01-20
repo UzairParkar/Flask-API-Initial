@@ -11,3 +11,6 @@ instance/
 .env
 .venv/
 venv/
+
+# excel ignore
+~$
