@@ -3,11 +3,10 @@ Note: This Repository includes all the different types of restful APIs that i ha
 
 *Note: For more information check the requirements.txt file of each project. 
 
-1. __Basic-Flask-API__: This is a simple Flask API with routes that define a home and placeholder function that checks the age. 
+1. __Basic Flask API__: This is a simple Flask API with routes that define a home and placeholder function that checks the age. 
 
 
-2. __CRUD-With-DS__: This is another simple API which is created by using a __Python Data Structure__ as a database. I have visualised the API as created for a notes app for better documentation and understanding. I have also given it different routes which allow me to perfrom CRUD operations using various HTTP methods.
-
+2 __CRUD With DS__: This is another simple API which is created by using a __Python Data Structure__ as a database. I have visualised the API as created for a notes app for better documentation and understanding. I have also given it different routes which allow me to perfrom CRUD operations using various HTTP methods.
 3. __To-Do-Application__: This is a to do application created using the tutorial provided by CodeWithHarry. Creating this allowed me to learn as to how a data is sent from the frontend to the database, it was created using SQL ALCHHEMY and Flask. it gave me a overview of the basic understanding of **Libraries**,**Jinja2**,**Template Inheritence** and **SQL ALCHEMY**
 
 4. __Flask-Rest-API-SQL-ALCHEMY__: An API created using Flask SQL ALCHEMY, now seeing as json is not serialisable i have created a function to convert the data to dictionary format.
