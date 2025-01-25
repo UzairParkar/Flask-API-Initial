@@ -16,4 +16,13 @@ Note: This Repository includes all the different types of restful APIs that i ha
 
 6. __Flask-Excel-Reader__: This API allows me to process and send data from an excel and CSV file to the database. 
 
-7. __Flask-Excel-CSV-Crud__: This API allows us to perform crud operations using the excel oe csv files. changes made in the excel files and csv files are detected when the api is hit and the data is changed  
+7. __Flask-Excel-CSV-Crud__: This API allows us to perform crud operations using the excel oe csv files. changes made in the excel files and csv files are detected when the api is hit and the data is changed.
+
+8. __Flask-Auth-Without-ORM__ : This API is my introduction into authentication here I have created different users on which functions like login and logout can be performed.
+
+9. __Flask-Auth-Jwt__ : This ApI is my introduction to JWT authentication and I have also used an ORM here along with Flask Marshmallow
+
+10. __Flask-Excel-CSV-With-JWT__ : I became a little bit more familiar with jwt authentication and sessions as i create an api with all of things i have done so far.
+
+11. __Flask-Auth-With-Cookies__ : This API takes things up a notch as i learn how to perform jwt authentication as well as set a cookie. 
+
