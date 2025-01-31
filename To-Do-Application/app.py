@@ -31,9 +31,9 @@ def home():
 def delete_tasks(sno):
     TooDoo = Todo.query.filter_by(sno=sno).first()
     db.session.delete(TooDoo)
-    db.session.commit()
+    db.session.commit() 
     return redirect('/')
-
+    
 @app.route('/about')
 def about():
     return render_template('about.html')

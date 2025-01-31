@@ -1,0 +1,23 @@
+# Byte-compiled files
+__pycache__/
+.vscode
+.pyc
+.pyo
+
+# Flask instance folder (contains runtime data like SQLite DBs)
+instance/
+.db
+
+# Environment files
+.env
+.venv/
+venv/
+
+#more on instances
+instance/*
+!instance/.gitignore
+.webassets-cache
+.env
+
+# excel ignore
+~$*
